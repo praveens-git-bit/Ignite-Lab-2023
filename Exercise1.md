@@ -405,7 +405,7 @@ sales-transaction-litware
 	![Datawarehouse.](media/task-1.3-notebook-15.png)
 
 
- 	**Note:** This notebook is used to get the data to the Bronze Lakehouse.
+ **Note:** This notebook is used to get the data to the Bronze Lakehouse.
 
 
 13. Close the **Information box** for a better view of the notebook content, if it appears.

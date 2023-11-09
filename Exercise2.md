@@ -60,9 +60,7 @@
 
 11. Copy paste the below value and Click on the **dropdown button**, select **Admin** and click on **Add**.
 
-**Service Principal Name**
-
-fabric <inject key="DiploymentID" enableCopy="true"/>
+	fabric <inject key="DeploymentID" enableCopy="false"/>
 
 ![Databricks.](media/task-2.1.new-5.png)
 
@@ -92,10 +90,9 @@ fabric <inject key="DiploymentID" enableCopy="true"/>
 
 11. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" with the current Fabric workspace name *given below* you are working on and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
 
-**Fabric Workspace Name**
-
-	contosoSales<Inject key="DiploymentID" enableCopy="true">
-
+```BASH
+contosoSales
+```
 
 ![Select Workflows](media/task-2.1.7.png)
 

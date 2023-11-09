@@ -102,7 +102,7 @@ contosoSales
 
 13. Click on the allow notification if a pop up appears.
 
-	![Select Workflows](PowerBI/task2.8.png)
+	![Select Workflows](PowerBI/Task2.8.png)
 
 
 14. Click on the **Start, attach and run** button to start executing the notebook.

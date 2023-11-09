@@ -80,7 +80,7 @@ Note: After you paste the link in the browser, the page will automatically login
 4. Enter the name **lakehouseBronze**.
 
 ```BASH
-  lakehouseBronze
+lakehouseBronze
 ```
 If the page get refreshed and lakehouse did not create, follow the steps from 1 to 4.
 
@@ -97,11 +97,11 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 7. Repeat **steps 1 through 5** to create two more lakehouses with the names **lakehouseSilver** and **lakehouseGold** respectively.
 
 ```BASH
-  lakehouseGold
+lakehouseGold
 ```
 
 ```BASH	
-  lakehouseSilver
+lakehouseSilver
 ```
 
 ### Task 1.3: Data Ingestion

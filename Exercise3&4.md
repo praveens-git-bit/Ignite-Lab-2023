@@ -147,7 +147,7 @@ Data Wrangler is a code tool that prepares data and generates Python code. This 
 **Warehouse Name**
 
 ```BASH
-	salesDW
+salesDW
 ```
 
 5. Click **Create**.

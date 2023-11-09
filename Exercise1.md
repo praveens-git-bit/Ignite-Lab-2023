@@ -4,8 +4,9 @@
 
  **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data.
 
-  https://app-realtime-kpi-analytics-<inject key= "DeploymentID" enableCopy="false"/>.azurewebsites.net
-
+```BASH
+  https://app-realtime-kpi-analytics-<inject key= "DeploymentID" enableCopy="true"/>.azurewebsites.net
+```
 
 1.  **Wait** for the page to load. You will see a page like the one shown below.
 
@@ -35,7 +36,9 @@ Note: After you paste the link in the browser, the page will automatically login
 
 3. Copy the below name and paste it in the **Name** box of workspace.
 
+```BASH
  contosoSales<inject key="DeploymentID" enableCopy="true"/>
+```
 
    ![Create Power BI Workspace.](media/task-1.1.3.png)
 

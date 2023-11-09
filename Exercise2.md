@@ -1,0 +1,209 @@
+
+## Exercise 2: Explore an analytics pipeline using open Delta format and Azure Databricks Delta Live Tables. Stitch data (landed earlier) to create a combined data product to build a simple Lakehouse and integrate with OneLake
+
+### Task 2.1: Set up an Azure Databricks environment
+
+**Integrate OneLake with Databricks:**
+
+**Use OneLake with existing data lakes using Shortcuts:**
+
+*Shortcuts function as a symbolic link to data, allowing a live connection to the target data from another location. Shortcuts can be created and then linked to any data within OneLake, or to external data lakes such as Azure Data Lake Storage Gen2 (ADLS Gen2) or Amazon S3. Contoso had gold layer Twitter data in their ADLS Gen2 which they connected with a shortcut to OneLake.*
+
+**Use and land data directly in OneLake:**
+
+*Since OneLake uses the same APIs as ADLS Gen2 and supports the same Delta Parquet format for data storage, Azure Databricks notebooks can be seamlessly updated to use the OneLake endpoints for the data. This keeps the paths consistent across experiences whether the data consumer is querying data through a warehouse in Microsoft Fabric or a notebook in Azure Databricks.*
+
+1. From the left navigation pane, click on **Workspaces** and select the **contosoSales** workspace.
+
+	![Databricks.](media/task-2.1.new-1.png)
+
+2. Click on the **three dots** and select **Manage access**.
+
+	![Databricks.](media/task-2.1.new-2.png)
+
+>**Note:** Manage access might be available in the pane also. If so, there is no need to click on the three dots.
+
+3. In the right pane, click on **+ Add people or groups**.
+
+	![Databricks.](media/task-2.1.new-3.png)
+
+4. Type **fabric** in the **search box** and select service principal that appears below, if you are not able to see it follow the below steps.
+
+	![Databricks.](PowerBI/Task2.1.png)
+
+*Note: If you are not able to see the Service principal, please follow the below steps.*
+
+5. Click on the **Setting Icon** above in the right corner of the page. 
+
+	![Databricks.](PowerBI/Task2.2.png)
+
+6. After clicking on the Setting Icon, scroll down the right panel that appeared and click on the **Admin Portal** under Governance and Insights.
+
+	![Databricks.](PowerBI/Task2.3.png)
+
+7. In the **Admin Portal** scroll down to the **Developer Settings** and enable the access for Service Principal by clicking on drop down.
+
+	![Databricks.](PowerBI/Task2.4.png)
+
+8. Click on the **toggle button** to enable and **Apply** button allow service principals to use PowerBI APIs. 
+
+	![Databricks.](PowerBI/Task2.5.png)
+
+9. Click on the **toggle button** to enable and **Apply** button allow service principals to create and use profiles.
+
+	![Databricks.](PowerBI/Task2.6.png)
+
+
+10. Go back to the Workspace and click on the three dots and select manage access, click on **+ Add people or groups** as you done above.
+
+	![Databricks.](PowerBI/Task2.7.png)
+
+11. Copy paste the below value and Click on the **dropdown button**, select **Admin** and click on **Add**.
+
+**Service Principal Name**
+
+fabric <inject key="DiploymentID" enableCopy="true"/>
+
+![Databricks.](media/task-2.1.new-5.png)
+
+12. Close the window.
+
+	![Databricks.](media/task-2.1.new-6.png)
+
+13. Navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name starting with **fabric-dpoc**.
+
+    ![Pipeline.](media/task-1.3.11.png)
+
+8. In the resource group, search for **databricks** and click on the databricks resource.
+
+	![Databricks.](media/task-2.1.1.png)
+
+9. In the databricks resource, click on the **Launch Workspace** button.
+
+	![Databricks.](media/task-2.1.2.png)
+
+>**Note:** click on Skip onboarding or Close any popups that appear.
+
+10. In the left navigation pane, select **Workspace**, click on **Workspace** in the Workspace navigation menu and then click on the **01_Setup-OneLake_Integration_with_Databrick** notebook.
+
+	![Select Workflows](media/task-2.1.3.png)
+
+>**Note:** Skip or Close any popups you see.
+
+11. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" with the current Fabric workspace name *given below* you are working on and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
+
+**Fabric Workspace Name**
+
+	contosoSales<Inject key="DiploymentID" enableCopy="true">
+
+
+![Select Workflows](media/task-2.1.7.png)
+
+12. Click on the **Run all** button. A new window will pop up.
+
+	![Select Workflows](media/task-2.1.4.png)
+
+13. Click on the allow notification if a pop up appears.
+
+	![Select Workflows](PowerBI/task2.8.png)
+
+
+14. Click on the **Start, attach and run** button to start executing the notebook.
+
+	![Select Workflows](media/task-2.1.5.png)
+
+15. Once the setup notebook runs successfully, mounting to the storage account is complete.
+
+
+### Task 2.2: Create a Delta Live Table pipeline
+
+In this task, you can create a Delta Live Table pipeline.
+
+*Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.*
+
+1. Select the **Workflows** icon in the left navigation pane.
+
+	![Select Workflows](media/task-2.1.6.png)
+
+2. Select the **Delta Live Tables** tab and click on the **Create pipeline** button.
+
+	![Select Workflows](media/task-2.3.1.png)
+
+3.	In the **Create pipeline window**, enter **Delta Live Table Pipeline** in the Pipeline name box.
+
+**Pipeline Name**
+
+```BASH
+	Delta Live Table Pipeline
+```
+
+![create pipeline](media/task-2.3.2.png)
+
+4.	In the Source Code field, select the notebook icon.
+
+	![Notebook libraries](media/task-2.3.3.png)
+
+5.	In the **Select source code** window, select the **02_DLT_Notebook.ipynb** notebook and click on **Select**.
+
+	![Select Notebook](media/task-2.3.4.png)
+
+6. Click on the **Create** button.
+
+	![Select Notebook](media/task-2.3.4-2.png)
+
+*Once you select **Create**, the Delta Live Table pipeline with all the notebook libraries added to the pipeline will be created.*
+
+7. Click **Start**.
+
+	![Select Notebook](media/task-2.3.5.png)
+
+*Databricks will start executing the pipeline which will take approximately 5 minutes.*
+
+8. This is the view you would see once the pipeline is executed. Observe the data lineage of bronze, silver and gold tables.
+
+	![Select Notebook](media/task-2.3.6.png)
+
+
+### Task 2.3: Explore SQL Analytics with Lakehouse SQL-endpoint
+
+*Every Lakehouse comes with a default SQL endpoint which can be used for querying purposes using SQL syntax.*
+
+*We can go from Lakehouse to SQL endpoint in the same window by selecting SQL endpoint from the Lakehouse dropdown menu in the top right corner of the window.*
+
+1. In the left navigation bar, click on **lakehouseSilver** to navigate to **SQL endpoint**.
+
+	![Select Notebook](media/task-2.3-sql1.png)
+
+>**Note:** You can also select lakehouseSilver from the contosoSales workspace.
+
+2. Hard refresh the page using **Ctrl + Shift + R**. 
+
+*A hard refresh helps load the delta tables in the lakehouse.*
+
+3. Click the **Lakehouse dropdown button** in the top right corner of the screen and select **SQL endpoint** or **SQL Analytics endpoint**.
+
+	![Select Notebook](media/task-2.3-sql2.png)
+
+>**Note:** Wait for the SQL endpoint to load.
+
+4. Here is a list of all the tables in open-standard delta format. We can run queries on these tables to get the insights we need for the next step.
+
+	![Select Notebook](media/task-2.3-sql3.png)
+
+#### SQL Query
+
+5. Click on the **New SQL Query** button.
+
+	![Select Notebook](media/task-2.3-sql4.png)
+
+*We can write a query to get the insights from sales data that we ingested using the shortcut names 'sales-transaction-litware'.*
+
+*We can also run queries with complex joins on the same table to get LitWare Inc.’s top 10 bestselling products and see how fast we can get the results. When running the queries, we get the result within seconds, and once it is in cold cache, it will take even less time to get the results. These queries showcase the data engineering experience in Microsoft Fabric.*
+
+#### Visual Query
+
+6. Click on **New visual query**.
+
+	![Select Notebook](media/task-2.3-sql5.png)
+
+*We can drag and drop tables from the Lakehouse to the canvas and establish a relationship between them before executing the query.*

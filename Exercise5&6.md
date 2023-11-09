@@ -7,11 +7,11 @@ In this task, you will work with Power BI to reveal some valuable insights.
 
 1. Open a new web session (tab) in the JumpVM, and paste the below link.
 
-**Microsoft Fabric Workspace Link**
-
 ```BASH
 	https://powerbi.com
 ```
+
+`Note: If you are working in the same tab you were working before, please close the tabs like warehouse, lakehouse, pipeline etc. Opened in the left task bar of the Microsoft Fabric to avoid the notification when you are opening more than 10 tabs.`
 
 >**Note:** Dismiss any popups that appear on your screen.
 
@@ -94,12 +94,10 @@ As a result of this analysis, Contoso reduced their bounce rate by implementing 
 
 	![Close the browser.](media/task-5.1.3.png)
 
-4. Enter the name **Contoso-KQL-DB**, click on the **Create** button and wait for the database to be created.
-
-**KQL Database Name**
+4. Enter the name of `KQL Database Name` as **Contoso-KQL-DB**, click on the **Create** button and wait for the database to be created.
 
 ```BASH
-	Contoso-KQL-DB
+Contoso-KQL-DB
 ```
 
 ![Close the browser.](media/task-5.1.4.png)
@@ -115,25 +113,20 @@ As a result of this analysis, Contoso reduced their bounce rate by implementing 
 ![Close the browser.](PowerBI/Task6.1.png)
 
 
-**Table**
-
 ```BASH
-	thermostat
+thermostat
 ```
 
 ![Close the browser.](PowerBI/Task6.2.png)
 
 3. In the Configure data source tab, select the **Create new connection** radio button. Fill the **Event Hub namespace** and **Event Hub** fields with below given values.
 
-	**Event Hub namespace**
 	
-	adx-thermostat-occupancy-<inject key="DeploymentID" enableCopy="true"/>
+	**adx-thermostat-occupancy-<inject key="DeploymentID" enableCopy="false"/>**
 
-	**Event Hub**
-
-	```BASH
-		thermostat
-	```
+```BASH
+thermostat
+```
 
 ![Close the browser.](PowerBI/Task6.3.png)
 
@@ -167,10 +160,9 @@ As a result of this analysis, Contoso reduced their bounce rate by implementing 
 
 11. Scroll down and select **Shared Access Key** for Authentication kind, enter **thermostat** as the Shared Access Key Name and then paste the value copied in **step 9** in the **Shared Access Key** field and click on the **Save** button.
 
-**Shared Access Key Name**
 
 ```BASH
-	thermostat
+thermostat
 ```
 
    ![Close the browser.](PowerBI/Task6.4.png)
@@ -217,12 +209,10 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 	![Close the browser.](media/task-5.3.2.png)
 
-3. Enter **Query Thermostat Data in Near Real-time using KQL Script** as the name and click on the **Create** button.
-
-**KQL Queryset Name**
+3. Copy paste the 'KQL Queryset Name' as **Query Thermostat Data in Near Real-time using KQL Script** and click on **Create** button.
 
 ```BASH
-	Query Thermostat Data in Near Real-time using KQL Script
+Query Thermostat Data in Near Real-time using KQL Script
 ```
 
 ![Close the browser.](media/task-5.3.3.png)
@@ -289,17 +279,17 @@ thermostat
 
 The graph/result visualizes the data in a line chart. We see that it looks like the temperature is currently quite pleasant.
 
+Note: The query from line **26 - 42** has the heavy data, avoid running the query. Those are only for information.
+
 9. Select the query. **(Line 26-32)**
 
-10.	Click **Run**.
-
-*Note: The user might not see graph, due to query of high consumption of data.*
+*Note: The user might not see graph, due to query of high data.*
 
 The graph/result visualizes the average temperature in the next 15 minutes, in anticipation of heavy foot traffic due to the ongoing sale. We notice that the temperature is going to remain pleasant for a while.
 
 11. Select the query. **(Line 35-42)**
 
-12.	Click **Run**.
+*Note: The user might not see graph, due to query of high data.*
 
 The third query is executed to keep an eye on the temperature and detect any anomalies. 
 A sudden rise or drop in temperature triggers an alert for the Contoso staff to check the situation and take necessary action to bring the temperature back to an optimal level.

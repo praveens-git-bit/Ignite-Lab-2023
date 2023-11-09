@@ -78,7 +78,7 @@ Note: After you paste the link in the browser, the page will automatically login
 4. Enter the name **lakehouseBronze**.
 
 ```BASH
-	lakehouseBronze
+  lakehouseBronze
 ```
 If the page get refreshed and lakehouse did not create, follow the steps from 1 to 4.
 
@@ -95,11 +95,11 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 7. Repeat **steps 1 through 5** to create two more lakehouses with the names **lakehouseSilver** and **lakehouseGold** respectively.
 
 ```BASH
-	lakehouseGold
+  lakehouseGold
 ```
 
 ```BASH	
-	lakehouseSilver
+  lakehouseSilver
 ```
 
 ### Task 1.3: Data Ingestion
@@ -121,7 +121,7 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 	![Pipeline.](media/task-1.3.3.png)
 
 ```BASH
-   Sales data from Azure SQL DB - Low Code Experience
+  Sales data from Azure SQL DB - Low Code Experience
 ```
 
 4. Click on **Copy data**.
@@ -149,7 +149,7 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
  In the **Database** field paste the below value.
 
 ```BASH 	
-	SalesDb
+  SalesDb
 ```
 
 ![Datawarehouse.](media/task-1.3.15.png)
@@ -158,11 +158,11 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 
 
 ```BASH
-	labsqladmin
+  labsqladmin
 ```
 
 ```BASH
-	Smoothie@2023
+  Smoothie@2023
 ```
 
    ![Datawarehouse.](media/task-1.3.16.png)
@@ -288,13 +288,13 @@ https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.
 24. Under **Shortcut Name**, copy and paste below name **data**.
 
 ```BASH
-	data
+  data
 ```
 
 25. Under **Sub Path**, type **/adlsfabricshortcut**.
 
 ```BASH
-	/adlsfabricshortcut
+  /adlsfabricshortcut
 ```
 
 26. Click on the **Create** button.
@@ -328,13 +328,13 @@ https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.
 34. Under **Shortcut Name**, copy paste the below value **sales-transaction-litware**.
 
 ```BASH
-	sales-transaction-litware
+  sales-transaction-litware
 ```
 
 35. Under **Sub Path**, copy paste the below value **/bronzeshortcutdata**.
 
 ```BASH
-	/bronzeshortcutdata
+  /bronzeshortcutdata
 ```
 
 36. Click on the **Create** button.

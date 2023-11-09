@@ -132,7 +132,7 @@ Data Wrangler is a code tool that prepares data and generates Python code. This 
 
 1. In the bottom-left corner of the Power BI tab, click on **Power BI**.
 
-**Note:** You may see **Data Sceience** instead. 
+**Note:** You may see **Data Science** instead. 
 
 2. Select **Data Warehouse**.
 
@@ -143,8 +143,6 @@ Data Wrangler is a code tool that prepares data and generates Python code. This 
 	![Datawarehouse.](media/task-4.1.warehouse-2.png)
 
 4. In the 'New Warehouse' pop-up, paste the name **salesDW**.
-
-**Warehouse Name**
 
 ```BASH
 salesDW
@@ -166,10 +164,8 @@ salesDW
 
 3. In the pop-up, paste the name **02 Sales data from Azure SQL DB to Data Warehouse - Low Code Experience**.
 
-**Pipeline Name**
-
 ```BASH
-	02 Sales data from Azure SQL DB to Data Warehouse - Low Code Experience
+02 Sales data from Azure SQL DB to Data Warehouse - Low Code Experience
 ```
 
 4. Click **Create**.

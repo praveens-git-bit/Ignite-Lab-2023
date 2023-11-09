@@ -4,9 +4,11 @@
 
  **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data.
  
-_
+<u>
+
  **https://app-realtime-kpi-analytics-****<inject key= "DeploymentID" enableCopy="false"/>****.azurewebsites.net**
-_
+
+</u>
 
 1.  **Wait** for the page to load. You will see a page like the one shown below.
 

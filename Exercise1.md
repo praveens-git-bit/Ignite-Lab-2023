@@ -42,6 +42,9 @@ Note: After you paste the link in the browser, the page will automatically login
 
    ![Create Power BI Workspace.](media/task-1.1.3.png)
 
+
+*Note: If you are getting any popups follow up the below steps or else jump to **Task 1.2***
+
 *Click on the **Try free** button.*
 
    ![Create Power BI Workspace.](media/task-1.1-new2.png)
@@ -55,7 +58,7 @@ Note: After you paste the link in the browser, the page will automatically login
 	![Create Power BI Workspace.](media/task-1.1-new4.png)
 
   ```BASH
-    contosoSales
+  contosoSales
   ```
 
 ### Task 1.2: Create/Build a Lakehouse

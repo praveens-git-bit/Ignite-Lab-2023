@@ -55,7 +55,9 @@ Note: After you paste the link in the browser, the page will automatically login
 
 	![Create Power BI Workspace.](media/task-1.1-new4.png)
 
- contosoSales<inject key="DeploymentID" enableCopy="true"/>
+  ```BASH
+    contosoSales
+  ```
 
 ### Task 1.2: Create/Build a Lakehouse
 
@@ -119,7 +121,7 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 	![Pipeline.](media/task-1.3.3.png)
 
 ```BASH
-	Sales data from Azure SQL DB - Low Code Experience
+   Sales data from Azure SQL DB - Low Code Experience
 ```
 
 4. Click on **Copy data**.
@@ -139,22 +141,31 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 >**Note:** To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal.
 
 
-7. In the Server field copy and paste the value below 
+7. In the Server field copy and paste the value below and replace `xxxxxxx` with the `DeploymentID` 
+
+**Server**
  
-mssql<inject key ="DeploymentID" enableCopy="true"/>.database.windows.net 
+mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net 
  
- and in the Database field paste the below value.
+ In the Database field paste the below value.
+
+**Database**
+
 ```BASH 	
-	SalesDb.
+	SalesDb
 ```
 
 ![Datawarehouse.](media/task-1.3.15.png)
 
 8. Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the Username, **Smoothie@2023** as the Password and finally click on the **Next** button.
 
+**Username**
+
 ```BASH
 	labsqladmin
 ```
+**Password**
+
 ```BASH
 	Smoothie@2023
 ```

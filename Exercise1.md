@@ -404,6 +404,10 @@ https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.
 
 14. Go to the cell with name **Shortcut Folder Path**, replace **#WORKSPACE_NAME#** with the Fabric Workspace name you are working on and also verify the lakehouse name which should be the Bronze Lakehouse you created.
 
+```BASH
+  contosoSales
+```
+
    ![Close the browser.](media/task-1.3-notebook-18.png)
 
 *This notebook is used to get the data to the Bronze Lakehouse.*

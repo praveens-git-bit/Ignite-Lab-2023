@@ -38,7 +38,7 @@ Note: After you paste the link in the browser, the page will automatically login
 3. Copy the below name and paste it in the **Name** box of workspace.
 
 
-	**contosoSales<inject key="DeploymentID" enableCopy="false"/>**
+   **contosoSales**<inject key="DeploymentID" enableCopy="false"/>
 
 
    ![Create Power BI Workspace.](media/task-1.1.3.png)

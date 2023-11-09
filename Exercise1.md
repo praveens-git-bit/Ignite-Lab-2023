@@ -128,7 +128,7 @@ lakehouseSilver
 	![Pipeline.](media/task-1.3.3.png)
 
 ```BASH
-  Sales data from Azure SQL DB - Low Code Experience
+Sales data from Azure SQL DB - Low Code Experience
 ```
 
 4. Click on **Copy data**.
@@ -148,15 +148,16 @@ lakehouseSilver
 >**Note:** To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal.
 
 
-7. In the **Server** field copy and paste the value below and replace `xxxxxxx` with the `DeploymentID` 
+7. In the **Server** field copy and paste the value given below. 
 
  
-	mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net 
+	**mssql****<inject key ="DeploymentID" enableCopy="false"/>****.database.windows.net** 
  
  In the **Database** field paste the below value.
 
+
 ```BASH 	
-  SalesDb
+SalesDb
 ```
 
 ![Datawarehouse.](media/task-1.3.15.png)
@@ -165,11 +166,11 @@ lakehouseSilver
 
 
 ```BASH
-  labsqladmin
+labsqladmin
 ```
 
 ```BASH
-  Smoothie@2023
+Smoothie@2023
 ```
 
    ![Datawarehouse.](media/task-1.3.16.png)
@@ -249,7 +250,7 @@ lakehouseSilver
 
 7. Copy the below **Data Lake Storage** endpoint. and paste it in the URL section.
 
-https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
+	**https://storage****<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
 
 
 8. To get the Key of the storage Account, navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name with **fabric-dpoc**.

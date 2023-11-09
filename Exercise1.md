@@ -285,11 +285,11 @@ Smoothie@2023
 16. Navigate back to the **Power BI** workspace (i.e. the Power BI tab in which we were working earlier).
 
 
-21. In the **Authentiation kind** dropdown, select **Account Key**.
+17. In the **Authentiation kind** dropdown, select **Account Key**.
 
-22. Paste the account key copied in **step number 13**.
+18. Paste the key copied in **step number 13** in the **Account Key** field.
 
-23. Click on **Next**.
+19. Click on **Next**.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut9.png)
 
@@ -327,7 +327,8 @@ data
 
 30. Copy and Paste the below endpoint under the **URL** field of **New Shortcut** page under connection settings.
 
-	**https://storage****<inject key="DeploymentID" enableCopy="false"/>****.dfs.core.windows.net/**
+	
+ 	https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
 
 >**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 19** below.
 

@@ -51,7 +51,7 @@
 
 9. Copy paste the below value and Click on the **dropdown button**, select **Admin** and click on **Add**.
 
-  **fabric <inject key="DeploymentID" enableCopy="false"/>**
+ 	 **fabric <inject key="DeploymentID" enableCopy="false"/>**
 
 ![Databricks.](media/task-2.1.new-5.png)
 
@@ -79,7 +79,7 @@
 
 >**Note:** Skip or Close any popups you see.
 
-14. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" with the current Fabric workspace name *given below* you are working on and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
+14. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" from Hash to Hash, with the current Fabric workspace name *given below* and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
 
 ```BASH
 contosoSales
@@ -119,21 +119,19 @@ In this task, you can create a Delta Live Table pipeline.
 
 3.	In the **Create pipeline window**, enter **Delta Live Table Pipeline** in the Pipeline name box.
 
-**Pipeline Name**
-
 ```BASH
-	Delta Live Table Pipeline
+Delta Live Table Pipeline
 ```
 
 ![create pipeline](media/task-2.3.2.png)
 
 4.	In the Source Code field, select the notebook icon.
 
-	![Notebook libraries](media/task-2.3.3.png)
+![Notebook libraries](media/task-2.3.3.png)
 
 5.	In the **Select source code** window, select the **02_DLT_Notebook.ipynb** notebook and click on **Select**.
 
-	![Select Notebook](media/task-2.3.4.png)
+![Select Notebook](media/task-2.3.4.png)
 
 6. Click on the **Create** button.
 

@@ -248,9 +248,9 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut11.png)
 
-7. Copy the below **Data Lake Storage** endpoint. and paste it in the URL section.
+7. Copy the below **Data Lake Storage** endpoint. and paste it in the URL field of **New Shortcut** page under **Connection Settings**.
 
-	**https://storage****<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
+	**https://storage****<inject key="DeploymentID" enableCopy="false"/>****.dfs.core.windows.net/**
 
 
 8. To get the Key of the storage Account, navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name with **fabric-dpoc**.
@@ -261,7 +261,7 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut5.png)
 
-10. In the resource window click on the **Hamburger icon**.
+10. If you are not able to left panel, In the resource window click on the **Hamburger icon**.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut5.1.png)
 
@@ -296,20 +296,22 @@ Smoothie@2023
 24. Under **Shortcut Name**, copy and paste below name **data**.
 
 ```BASH
-  data
+data
 ```
 
 25. Under **Sub Path**, type **/adlsfabricshortcut**.
 
 ```BASH
-  /adlsfabricshortcut
+/adlsfabricshortcut
 ```
 
 26. Click on the **Create** button.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut10.png)
 
-*We will now create another shortcut for Litware Inc. data.*
+
+#*We will now create another shortcut for Litware Inc. data.*
+
 
 27. Click on the **three dots** to the right of **Files**.
 
@@ -323,9 +325,9 @@ Smoothie@2023
 
 >**Note:** Wait for the screen to load.
 
-30. Copy and Paste the below endpoint under the **URL** field.
+30. Copy and Paste the below endpoint under the **URL** field of **New Shortcut** page under connection settings.
 
-https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
+	**https://storage****<inject key="DeploymentID" enableCopy="false"/>****.dfs.core.windows.net/**
 
 >**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 19** below.
 
@@ -336,13 +338,13 @@ https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.
 34. Under **Shortcut Name**, copy paste the below value **sales-transaction-litware**.
 
 ```BASH
-  sales-transaction-litware
+sales-transaction-litware
 ```
 
 35. Under **Sub Path**, copy paste the below value **/bronzeshortcutdata**.
 
 ```BASH
-  /bronzeshortcutdata
+/bronzeshortcutdata
 ```
 
 36. Click on the **Create** button.
@@ -402,18 +404,18 @@ https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.
 
 	![Datawarehouse.](media/task-1.3-notebook-15.png)
 
-13. This notebook is used to get the data to the Bronze Lakehouse.
 
-	![Close the browser.](media/task-1.3-notebook-16.png)
+ 	**Note:** This notebook is used to get the data to the Bronze Lakehouse.
 
-13. Close the **Information box** for a better view of the notebook content.
+
+13. Close the **Information box** for a better view of the notebook content, if it appears.
 
 	![Datawarehouse.](media/task-1.3-notebook-15.1.png)
 
-14. Go to the cell with name **Shortcut Folder Path**, replace **#WORKSPACE_NAME#** with the Fabric Workspace name you are working on and also verify the lakehouse name which should be the Bronze Lakehouse you created.
+14. Go to the cell with name **Shortcut Folder Path**, replace from Hash to Hash **#WORKSPACE_NAME#** with the Fabric Workspace name you are working on and also verify the lakehouse name which should be the Bronze Lakehouse you created.
 
 ```BASH
-  contosoSales
+contosoSales
 ```
 
    ![Close the browser.](media/task-1.3-notebook-18.png)

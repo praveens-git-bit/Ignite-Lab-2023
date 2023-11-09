@@ -79,7 +79,7 @@
 
 >**Note:** Skip or Close any popups you see.
 
-14. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" from Hash to Hash, with the current Fabric workspace name *given below* and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
+14. In the cell named **OneLake Path** or **cmd 2**, replace **"#WORKSPACE_NAME#"** from Hash to Hash, with the earlier created Fabric workspace and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
 
 ```BASH
 contosoSales

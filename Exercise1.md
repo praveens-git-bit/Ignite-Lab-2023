@@ -141,15 +141,12 @@ If the page get refreshed and lakehouse did not create, follow the steps from 1 
 >**Note:** To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal.
 
 
-7. In the Server field copy and paste the value below and replace `xxxxxxx` with the `DeploymentID` 
+7. In the **Server** field copy and paste the value below and replace `xxxxxxx` with the `DeploymentID` 
 
-**Server**
  
-mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net 
+	mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net 
  
- In the Database field paste the below value.
-
-**Database**
+ In the **Database** field paste the below value.
 
 ```BASH 	
 	SalesDb
@@ -159,12 +156,10 @@ mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net
 
 8. Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the Username, **Smoothie@2023** as the Password and finally click on the **Next** button.
 
-**Username**
 
 ```BASH
 	labsqladmin
 ```
-**Password**
 
 ```BASH
 	Smoothie@2023
@@ -247,7 +242,7 @@ mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net
 
 7. Copy the below **Data Lake Storage** endpoint. and paste it in the URL section.
 
-https://storage<inject key="DeploymentID" enableCopy="true"/>.dfs.core.windows.net/
+https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
 
 
 8. To get the Key of the storage Account, navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name with **fabric-dpoc**.
@@ -320,9 +315,9 @@ https://storage<inject key="DeploymentID" enableCopy="true"/>.dfs.core.windows.n
 
 >**Note:** Wait for the screen to load.
 
-30. Paste the below endpoint under the **URL** field.
+30. Copy and Paste the below endpoint under the **URL** field.
 
-https://storage<inject key="DeploymentID" enableCopy="true"/>.dfs.core.windows.net/
+https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
 
 >**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 19** below.
 
@@ -330,13 +325,13 @@ https://storage<inject key="DeploymentID" enableCopy="true"/>.dfs.core.windows.n
 
 	![Lakehouse.](media/task-1.3-ext-shortcut9.png)
 
-34. Under **Shortcut Name**, type **sales-transaction-litware**.
+34. Under **Shortcut Name**, copy paste the below value **sales-transaction-litware**.
 
 ```BASH
 	sales-transaction-litware
 ```
 
-35. Under **Sub Path**, type **/bronzeshortcutdata**.
+35. Under **Sub Path**, copy paste the below value **/bronzeshortcutdata**.
 
 ```BASH
 	/bronzeshortcutdata

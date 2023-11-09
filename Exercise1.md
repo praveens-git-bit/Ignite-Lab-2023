@@ -3,6 +3,7 @@
 *Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
 
  **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data.
+ 
  `
  **https://app-realtime-kpi-analytics-**<inject key= "DeploymentID" enableCopy="false"/>**.azurewebsites.net**
 `

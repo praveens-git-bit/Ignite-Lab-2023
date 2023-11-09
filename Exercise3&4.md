@@ -170,9 +170,9 @@ salesDW
 
 4. Click **Create**.
 
-5. **Wait** for a new pop-up.
-
 	![Datawarehouse.](media/task-4.1.warehouse-5.png)
+
+5. **Wait** for a new pop-up.
 
 6. Scroll down in the pop-up.
 

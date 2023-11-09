@@ -51,7 +51,7 @@
 
 9. Copy paste the below value and Click on the **dropdown button**, select **Admin** and click on **Add**.
 
-	fabric <inject key="DeploymentID" enableCopy="false"/>
+  **fabric <inject key="DeploymentID" enableCopy="false"/>**
 
 ![Databricks.](media/task-2.1.new-5.png)
 

@@ -4,9 +4,11 @@
 
  **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data.
  
+<font color="green">
  
  **https://app-realtime-kpi-analytics-**<inject key= "DeploymentID" enableCopy="false"/>**.azurewebsites.net**
 
+</font>
 
 1.  **Wait** for the page to load. You will see a page like the one shown below.
 
@@ -63,6 +65,7 @@ Note: After you paste the link in the browser, the page will automatically login
 
 ### Task 1.2: Create/Build a Lakehouse
 
+
 1. In Power BI service, click **+ New** and then select **Show all**.
 
 **Note:** You may see **More options** instead of Show all. 
@@ -82,7 +85,9 @@ Note: After you paste the link in the browser, the page will automatically login
 ```BASH
 lakehouseBronze
 ```
-If the page get refreshed and lakehouse did not create, follow the steps from 1 to 4.
+
+**Note:** If the page get refreshed and lakehouse did not create, follow the steps from 1 to 4.
+
 
 5. Click the **Create** button.
 
@@ -111,6 +116,8 @@ lakehouseSilver
 1. While you are in the **contosoSales** workspace, click the **+ New** button and select **More options**.
 
 	![Pipeline.](media/task-1.3.1.png)
+
+
 
 >**Note:** Instead of **More options** you may see **Show all**.
 

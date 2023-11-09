@@ -13,82 +13,73 @@
 
 *Since OneLake uses the same APIs as ADLS Gen2 and supports the same Delta Parquet format for data storage, Azure Databricks notebooks can be seamlessly updated to use the OneLake endpoints for the data. This keeps the paths consistent across experiences whether the data consumer is querying data through a warehouse in Microsoft Fabric or a notebook in Azure Databricks.*
 
-1. From the left navigation pane, click on **Workspaces** and select the **contosoSales** workspace.
+1. Click on the **Setting Icon** above in the right corner of the page. 
+
+	![Databricks.](PowerBI/Task2.2.png)
+
+2. After clicking on the Setting Icon, scroll down the right panel that appeared and click on the **Admin Portal** under Governance and Insights.
+
+	![Databricks.](PowerBI/Task2.3.png)
+
+3. In the **Admin Portal** scroll down to the **Developer Settings** and enable the access for Service Principal by clicking on drop down.
+
+	![Databricks.](PowerBI/Task2.4.png)
+
+4. Click on the **toggle button** to enable and **Apply** button allow service principals to use PowerBI APIs. 
+
+	![Databricks.](PowerBI/Task2.5.png)
+
+5. Click on the **toggle button** to enable and **Apply** button allow service principals to create and use profiles.
+
+	![Databricks.](PowerBI/Task2.6.png)
+
+
+6. From the left navigation pane, click on **Workspaces** and select the **contosoSales** workspace.
 
 	![Databricks.](media/task-2.1.new-1.png)
 
-2. Click on the **three dots** and select **Manage access**.
+7. Click on the **three dots** and select **Manage access**.
 
 	![Databricks.](media/task-2.1.new-2.png)
 
 >**Note:** Manage access might be available in the pane also. If so, there is no need to click on the three dots.
 
-3. In the right pane, click on **+ Add people or groups**.
+8. In the right pane, click on **+ Add people or groups**.
 
 	![Databricks.](media/task-2.1.new-3.png)
 
-4. Type **fabric** in the **search box** and select service principal that appears below, if you are not able to see it follow the below steps.
 
-	![Databricks.](PowerBI/Task2.1.png)
-
-*Note: If you are not able to see the Service principal, please follow the below steps.*
-
-5. Click on the **Setting Icon** above in the right corner of the page. 
-
-	![Databricks.](PowerBI/Task2.2.png)
-
-6. After clicking on the Setting Icon, scroll down the right panel that appeared and click on the **Admin Portal** under Governance and Insights.
-
-	![Databricks.](PowerBI/Task2.3.png)
-
-7. In the **Admin Portal** scroll down to the **Developer Settings** and enable the access for Service Principal by clicking on drop down.
-
-	![Databricks.](PowerBI/Task2.4.png)
-
-8. Click on the **toggle button** to enable and **Apply** button allow service principals to use PowerBI APIs. 
-
-	![Databricks.](PowerBI/Task2.5.png)
-
-9. Click on the **toggle button** to enable and **Apply** button allow service principals to create and use profiles.
-
-	![Databricks.](PowerBI/Task2.6.png)
-
-
-10. Go back to the Workspace and click on the three dots and select manage access, click on **+ Add people or groups** as you done above.
-
-	![Databricks.](PowerBI/Task2.7.png)
-
-11. Copy paste the below value and Click on the **dropdown button**, select **Admin** and click on **Add**.
+9. Copy paste the below value and Click on the **dropdown button**, select **Admin** and click on **Add**.
 
 	fabric <inject key="DeploymentID" enableCopy="false"/>
 
 ![Databricks.](media/task-2.1.new-5.png)
 
-12. Close the window.
+10. Close the window.
 
 	![Databricks.](media/task-2.1.new-6.png)
 
-13. Navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name starting with **fabric-dpoc**.
+11. Navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name starting with **fabric-dpoc**.
 
     ![Pipeline.](media/task-1.3.11.png)
 
-8. In the resource group, search for **databricks** and click on the databricks resource.
+12. In the resource group, search for **databricks** and click on the databricks resource.
 
 	![Databricks.](media/task-2.1.1.png)
 
-9. In the databricks resource, click on the **Launch Workspace** button.
+12. In the databricks resource, click on the **Launch Workspace** button.
 
 	![Databricks.](media/task-2.1.2.png)
 
 >**Note:** click on Skip onboarding or Close any popups that appear.
 
-10. In the left navigation pane, select **Workspace**, click on **Workspace** in the Workspace navigation menu and then click on the **01_Setup-OneLake_Integration_with_Databrick** notebook.
+13. In the left navigation pane, select **Workspace**, click on **Workspace** in the Workspace navigation menu and then click on the **01_Setup-OneLake_Integration_with_Databrick** notebook.
 
 	![Select Workflows](media/task-2.1.3.png)
 
 >**Note:** Skip or Close any popups you see.
 
-11. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" with the current Fabric workspace name *given below* you are working on and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
+14. In the cell named **OneLake Path** or **cmd 2**, replace "#WORKSPACE_NAME#" with the current Fabric workspace name *given below* you are working on and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
 
 ```BASH
 contosoSales
@@ -96,20 +87,20 @@ contosoSales
 
 ![Select Workflows](media/task-2.1.7.png)
 
-12. Click on the **Run all** button. A new window will pop up.
+15. Click on the **Run all** button. A new window will pop up.
 
 	![Select Workflows](media/task-2.1.4.png)
 
-13. Click on the allow notification if a pop up appears.
+16. Click on the allow notification if a pop up appears.
 
 	![Select Workflows](PowerBI/Task2.8.png)
 
 
-14. Click on the **Start, attach and run** button to start executing the notebook.
+17. Click on the **Start, attach and run** button to start executing the notebook.
 
 	![Select Workflows](media/task-2.1.5.png)
 
-15. Once the setup notebook runs successfully, mounting to the storage account is complete.
+18. Once the setup notebook runs successfully, mounting to the storage account is complete.
 
 
 ### Task 2.2: Create a Delta Live Table pipeline

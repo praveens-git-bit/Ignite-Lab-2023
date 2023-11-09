@@ -248,7 +248,7 @@ Smoothie@2023
 
 7. Copy the below **Data Lake Storage** endpoint. and paste it in the URL field of **New Shortcut** page under **Connection Settings**.
 
-	**https://storage****<inject key="DeploymentID" enableCopy="false"/>****.dfs.core.windows.net/**
+	**https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/**
 
 
 8. To get the Key of the storage Account, navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name with **fabric-dpoc**.

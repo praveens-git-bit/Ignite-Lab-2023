@@ -151,7 +151,7 @@ Sales data from Azure SQL DB - Low Code Experience
 7. In the **Server** field copy and paste the value given below. 
 
  
-**mssql****<inject key ="DeploymentID" enableCopy="false"/>****.database.windows.net** 
+	mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net
  
 
  In the **Database** field paste the below value.

@@ -125,7 +125,7 @@ Delta Live Table Pipeline
 
 ![create pipeline](media/task-2.3.2.png)
 
-4.	In the Source Code field, select the notebook icon.
+4. Under the Source Code in the paths, select the notebook icon.
 
 ![Notebook libraries](media/task-2.3.3.png)
 

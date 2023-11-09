@@ -34,7 +34,7 @@ Note: After you paste the link in the browser, the page will automatically login
 
 	![Create Power BI Workspace.](media/task-1.1.2.png)
 
-3. Copy the below name and paste it in the **Name** box of workspace.
+3. Copy the below name and paste it in the **Name** field of workspace and if the **contosoSales** workspace is not availabe please add any *suffix*.
 
   ```BASH
   contosoSales
@@ -215,7 +215,8 @@ Smoothie@2023
 
 17. Similarly you can get data into the Lakehouses using pipelines from various other sources like Snowflake, Dataverse, etc.
 
-18. Due to time constraints, we will be moving forward to the next steps.
+
+ *Due to time constraints, we will be moving forward to the next steps.*
 
 
 ### Using the ‘New Shortcut’ option from external data sources
@@ -274,14 +275,14 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut6.png)
 
-13. Click on the **Copy to clickboard** button.
+13. Click on the **Copy to clipboard** button.
 
 14. Save this information in a notepad for further use.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut7.png)
 
 
-16. Navigate back to the **Power BI** workspace (i.e. the Power BI tab in which we working earlier).
+16. Navigate back to the **Power BI** workspace (i.e. the Power BI tab in which we were working earlier).
 
 
 21. In the **Authentiation kind** dropdown, select **Account Key**.

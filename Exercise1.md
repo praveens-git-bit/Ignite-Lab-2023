@@ -275,37 +275,34 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut6.png)
 
-13. Click on the **Copy to clipboard** button.
-
-14. Save this information in a notepad for further use.
+14. Click on the **Copy to clipboard** button. Save this information in a notepad for further use.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut7.png)
 
 
-16. Navigate back to the **Power BI** workspace (i.e. the Power BI tab in which we were working earlier).
+15. Navigate back to the **Power BI** workspace (i.e. the Power BI tab in which we were working earlier).
 
+16. In the **Authentiation kind** dropdown, select **Account Key**.
 
-17. In the **Authentiation kind** dropdown, select **Account Key**.
+17. Paste the key copied in **step number 14** in the **Account Key** field.
 
-18. Paste the key copied in **step number 13** in the **Account Key** field.
-
-19. Click on **Next**.
+18. Click on **Next**.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut9.png)
 
-24. Under **Shortcut Name**, copy and paste below name **data**.
+19. Under **Shortcut Name**, copy and paste below name **data**.
 
 ```BASH
 data
 ```
 
-25. Under **Sub Path**, type **/adlsfabricshortcut**.
+20. Under **Sub Path**, type **/adlsfabricshortcut**.
 
 ```BASH
 /adlsfabricshortcut
 ```
 
-26. Click on the **Create** button.
+21. Click on the **Create** button.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut10.png)
 
@@ -313,42 +310,42 @@ data
 #*We will now create another shortcut for Litware Inc. data.*
 
 
-27. Click on the **three dots** to the right of **Files**.
+22. Click on the **three dots** to the right of **Files**.
 
-28. Click on **New shortcut**.
+23. Click on **New shortcut**.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut3.png)
 
-29. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
+24. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut4.png)
 
 >**Note:** Wait for the screen to load.
 
-30. Copy and Paste the below endpoint under the **URL** field of **New Shortcut** page under connection settings.
+25. Copy and Paste the below endpoint under the **URL** field of **New Shortcut** page under connection settings.
 
 	
  	https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
 
->**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 19** below.
+>**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 17** below.
 
-33. Click on **Next**.
+26. Click on **Next**.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut9.png)
 
-34. Under **Shortcut Name**, copy paste the below value **sales-transaction-litware**.
+27. Under **Shortcut Name**, copy paste the below value **sales-transaction-litware**.
 
 ```BASH
 sales-transaction-litware
 ```
 
-35. Under **Sub Path**, copy paste the below value **/bronzeshortcutdata**.
+28. Under **Sub Path**, copy paste the below value **/bronzeshortcutdata**.
 
 ```BASH
 /bronzeshortcutdata
 ```
 
-36. Click on the **Create** button.
+29. Click on the **Create** button.
 
 	![Lakehouse.](media/task-1.3-ext-shortcut13.png)
 

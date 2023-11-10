@@ -160,7 +160,7 @@ Delta Live Table Pipeline
 
 *We can go from Lakehouse to SQL endpoint in the same window by selecting SQL endpoint from the Lakehouse dropdown menu in the top right corner of the window.*
 
-1. In the left navigation bar, click on **lakehouseSilver** to navigate to **SQL endpoint**.
+1. In the left navigation bar, click on **lakehouseSilver** if available or go to the **contosoSales** workspace and open **lakehouseSilver** to navigate to **SQL endpoint**.
 
 	![Select Notebook](media/task-2.3-sql1.png)
 

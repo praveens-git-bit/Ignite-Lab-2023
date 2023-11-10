@@ -8,7 +8,7 @@ In this task, you will work with Power BI to reveal some valuable insights.
 1. Open a new web session (tab) in the JumpVM, and paste the below link.
 
 ```BASH
-	https://powerbi.com
+https://app.powerbi.com
 ```
 
 `Note: If you are working in the same tab you were working before, please close the tabs like warehouse, lakehouse, pipeline etc. Opened in the left task bar of the Microsoft Fabric to avoid the notification when you are opening more than 10 tabs.`

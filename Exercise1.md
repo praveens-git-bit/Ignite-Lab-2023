@@ -2,11 +2,9 @@
 
 *Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
 
- **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data. Replace the `xxxxxxx` value to Deployment ID, **<inject key= "DeploymentID" enableCopy="true"/>**
- 
-  ```BASH
-https://app-realtime-kpi-analytics-xxxxxxx.azurewebsites.net
-   ```
+ **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data. 
+
+ <inject key= "NameSpaceBrowse" enableCopy="true"/>
 
 
  **Wait** for the page to load. You will see a page like the one shown below.
@@ -250,7 +248,6 @@ Smoothie@2023
 
 7. Copy the below **Data Lake Storage** endpoint *https://storage`xxxxxxx`.dfs.core.widows.net* and paste it in the URL field of **New Shortcut** page under **Connection Settings** and replace `xxxxxxx` with Deployment ID <inject key= "DeploymentID" enableCopy="true"/>.
 
-	
    	https://storagexxxxxxx.dfs.core.windows.net/
 
 

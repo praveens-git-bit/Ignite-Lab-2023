@@ -127,6 +127,8 @@ Delta Live Table Pipeline
 
 4. Under the Source Code in the paths, select the notebook icon.
 
+   `Note: If you are not able to see screen completely please zoom out the main browser.`
+
 ![Notebook libraries](media/task-2.3.3.png)
 
 5.	In the **Select source code** window, select the **02_DLT_Notebook.ipynb** notebook and click on **Select**.
@@ -138,6 +140,8 @@ Delta Live Table Pipeline
 	![Select Notebook](media/task-2.3.4-2.png)
 
 *Once you select **Create**, the Delta Live Table pipeline with all the notebook libraries added to the pipeline will be created.*
+
+`Note: If you are not able to see screen completely please zoom out the main browser.`
 
 7. Click **Start**.
 

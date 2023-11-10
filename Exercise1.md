@@ -148,10 +148,12 @@ Sales data from Azure SQL DB - Low Code Experience
 >**Note:** To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal.
 
 
-7. In the **Server** field copy and paste the value given below. 
+7. In the **Server** field copy and paste the value given below.
+   
+```BASH
+ <inject key= "MssqlServer" enableCopy="true"/>
+ ```
 
- 	<inject key= "MssqlServer" enableCopy="true"/>
- 
  In the **Database** field paste the below value.
 
 ```BASH 	

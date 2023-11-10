@@ -11,7 +11,7 @@ https://app-realtime-kpi-analytics-xxxxxxx.azurewebsites.net
 
  **Wait** for the page to load. You will see a page like the one shown below.
 
-	![Simulator.](media/task-1.3.png)
+![Simulator.](media/task-1.3.png)
 
 
 ### Task 1.1: Create a Microsoft Fabric enabled workspace

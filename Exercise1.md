@@ -149,7 +149,7 @@ Sales data from Azure SQL DB - Low Code Experience
 
 7. In the **Server** field copy and paste the value given below. 
 
- 	**mssql<inject key ="DeploymentID" enableCopy="false"/>.database.windows.net**
+ 	<inject key= "MssqlServer" enableCopy="true"/>
  
  In the **Database** field paste the below value.
 
@@ -246,9 +246,9 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut11.png)
 
-7. Copy the below **Data Lake Storage** endpoint *https://storage`xxxxxxx`.dfs.core.widows.net* and paste it in the URL field of **New Shortcut** page under **Connection Settings** and replace `xxxxxxx` with Deployment ID <inject key= "DeploymentID" enableCopy="true"/>.
+7. Copy the below **Data Lake Storage** endpoint and paste it in the URL field of **New Shortcut** page under **Connection Settings**. 
 
-   	https://storagexxxxxxx.dfs.core.windows.net/
+   	<inject key= "StorageEndpoint" enableCopy="true"/>
 
 
 8. To get the Key of the storage Account, navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name with **fabric-dpoc**.
@@ -320,10 +320,10 @@ data
 
 >**Note:** Wait for the screen to load.
 
-25. Copy the below **Data Lake Storage** endpoint *https://storage`xxxxxxx`.dfs.core.widows.net* and paste it in the URL field of **New Shortcut** page under **Connection Settings** and replace `xxxxxxx` with Deployment ID <inject key= "DeploymentID" enableCopy="true"/>.
+25. Copy the below **Data Lake Storage** endpoint and paste it in the URL field of **New Shortcut** page under **Connection Settings**.
 
 	
-   	https://storagexxxxxxx.dfs.core.windows.net/
+   	<inject key= "StorageEndpoint" enableCopy="true"/>
 
 
 >**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 17** below.

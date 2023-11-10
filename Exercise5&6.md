@@ -121,6 +121,7 @@ thermostat
 
 3. In the Configure data source tab, select the **Create new connection** radio button. Fill the **Event Hub namespace** and **Event Hub** fields with below given values.
 
+	<inject key="$namespaces_adx_thermostat_occupancy_name" enableCopy="true"/>
 	
 	**adx-thermostat-occupancy-<inject key="DeploymentID" enableCopy="false"/>**
 

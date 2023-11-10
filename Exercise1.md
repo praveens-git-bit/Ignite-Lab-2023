@@ -2,10 +2,11 @@
 
 *Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
 
- **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data.
+ **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data. Change the `xxxxxxx` value to Deployment ID, <inject key= "DeploymentID" enableCopy="false"/>
  
-
- **https://app-realtime-kpi-analytics-****<inject key= "DeploymentID" enableCopy="false"/>****.azurewebsites.net** 
+  ```BASH
+https://app-realtime-kpi-analytics-xxxxxxx.azurewebsites.net
+   ```
 
 
 1.  **Wait** for the page to load. You will see a page like the one shown below.
@@ -16,7 +17,7 @@
 ### Task 1.1: Create a Microsoft Fabric enabled workspace
 
 
-1. Open **Power BI** in a new tab by copy pasting the below link.
+1. Open **PowerBI** in a new tab by copy pasting the below link.
 
  ```BASH
    https://app.powerbi.com/

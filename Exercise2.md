@@ -102,7 +102,7 @@ contosoSales
 
 18. After you click on **Start, attach and run** check for the cluster to get attached to the notebook.
    
-	![Select Workflows]PowerBI/Cluster.png)
+	![Select Workflows](PowerBI/Cluster.png)
 
 `Note: Wait for 5 to 6 minutes before moving on to next step to get the successfull execution of notebook`
 
@@ -131,7 +131,7 @@ Delta Live Table Pipeline
 
 ![create pipeline](media/task-2.3.2.png)
 
-4. Under the Source Code in the paths, select the notebook icon.
+4. Scroll down to the **Source Code**. Under the Source Code in the paths, select the notebook icon.
 
    `Note: If you are not able to see screen completely please zoom out the main browser.`
 
@@ -166,7 +166,11 @@ Delta Live Table Pipeline
 
 *We can go from Lakehouse to SQL endpoint in the same window by selecting SQL endpoint from the Lakehouse dropdown menu in the top right corner of the window.*
 
-1. In the left navigation bar, click on **lakehouseSilver** if available or go to the **contosoSales** workspace and open **lakehouseSilver** to navigate to **SQL endpoint**.
+1. In the left navigation bar, Click on the **Workspaces** click on **contosoSales**.
+
+	![Close the browser.](media/task-3.1.10.png)
+
+2. Scroll down to **lakehouseSilver** and click on it to open it and work on **SQL Analytics endpoint**
 
 	![Select Notebook](media/task-2.3-sql1.png)
 

@@ -2,14 +2,14 @@
 
 *Before we start executing the steps, we will trigger the simulator app to start streaming data to eventhub.*
 
- **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data. Change the `xxxxxxx` value to Deployment ID, <inject key= "DeploymentID" enableCopy="false"/>
+ **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data. Replace the `xxxxxxx` value to Deployment ID, **<inject key= "DeploymentID" enableCopy="false"/>**
  
   ```BASH
 https://app-realtime-kpi-analytics-xxxxxxx.azurewebsites.net
    ```
 
 
-1.  **Wait** for the page to load. You will see a page like the one shown below.
+ **Wait** for the page to load. You will see a page like the one shown below.
 
 	![Simulator.](media/task-1.3.png)
 

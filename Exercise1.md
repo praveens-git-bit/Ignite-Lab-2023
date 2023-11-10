@@ -98,7 +98,7 @@ lakehouseBronze
 
 >**Note:** For this lab we need three lakehouses altogether. For creating the other two, follow the step provided below.
 
-7. Repeat **steps 1 through 5** to create two more lakehouses with the names **lakehouseSilver** and **lakehouseGold** respectively.
+7. Repeat from **steps 1 to 5** to create two more lakehouses with the names **lakehouseSilver** and **lakehouseGold** respectively.
 
 ```BASH
 lakehouseGold
@@ -112,7 +112,7 @@ lakehouseSilver
     
 ### Using Data Pipelines/Data Flow ‘No Code-Low Code experience’
 
-1. While you are in the **contosoSales** workspace, click the **+ New** button and select **More options**.
+1. Go to **contosoSales** workspace, and click on the **+ New** button and select **More options**.
 
 	![Pipeline.](media/task-1.3.1.png)
 
@@ -248,10 +248,10 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut11.png)
 
-7. Copy the below **Data Lake Storage** endpoint. and paste it in the URL field of **New Shortcut** page under **Connection Settings**.
+7. Copy the below **Data Lake Storage** endpoint *https://storage`xxxxxxx`.dfs.core.widows.net* and paste it in the URL field of **New Shortcut** page under **Connection Settings** and replace `xxxxxxx` with Deployment ID <inject key= "DeploymentID" enableCopy="true"/>.
 
 	
- 	**https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/**
+   	https://storagexxxxxxx.dfs.core.windows.net/
 
 
 8. To get the Key of the storage Account, navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name with **fabric-dpoc**.
@@ -323,10 +323,11 @@ data
 
 >**Note:** Wait for the screen to load.
 
-25. Copy and Paste the below endpoint under the **URL** field of **New Shortcut** page under connection settings.
+25. Copy the below **Data Lake Storage** endpoint *https://storage`xxxxxxx`.dfs.core.widows.net* and paste it in the URL field of **New Shortcut** page under **Connection Settings** and replace `xxxxxxx` with Deployment ID <inject key= "DeploymentID" enableCopy="true"/>.
 
 	
- 	https://storage<inject key="DeploymentID" enableCopy="false"/>.dfs.core.windows.net/
+   	https://storagexxxxxxx.dfs.core.windows.net/
+
 
 >**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 17** below.
 

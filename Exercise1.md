@@ -4,8 +4,9 @@
 
  **Open** the new tab in the browser and copy paste the below URL to verify app service streaming data. 
 
+```BASH
  <inject key= "NameSpaceBrowse" enableCopy="true"/>
-
+```
 
  **Wait** for the page to load. You will see a page like the one shown below.
 
@@ -322,9 +323,9 @@ data
 
 25. Copy the below **Data Lake Storage** endpoint and paste it in the URL field of **New Shortcut** page under **Connection Settings**.
 
-	
-   	<inject key= "StorageEndpoint" enableCopy="true"/>
-
+```BASH
+<inject key= "StorageEndpoint" enableCopy="true"/>
+```
 
 >**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 17** below.
 

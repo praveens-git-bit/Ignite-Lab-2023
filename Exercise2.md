@@ -100,7 +100,7 @@ contosoSales
 
 	![Select Workflows](media/task-2.1.5.png)
 
-18. After you click on **Start, attach and run** check for the cluster to get attached to the notebook.
+18. After you click on **Start, attach and run** check for the cluster to get attach to the notebook.
    
 	![Select Workflows](PowerBI/Cluster.png)
 

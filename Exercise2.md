@@ -100,7 +100,13 @@ contosoSales
 
 	![Select Workflows](media/task-2.1.5.png)
 
-18. Once the setup notebook runs successfully, mounting to the storage account is complete.
+18. After you click on **Start, attach and run** check for the cluster to get attached to the notebook.
+   
+	![Select Workflows]PowerBI/Cluster.png)
+
+`Note: Wait for 5 to 6 minutes before moving on to next step to get the successfull execution of notebook`
+
+21. Once the setup notebook runs successfully, mounting to the storage account is complete.
 
 
 ### Task 2.2: Create a Delta Live Table pipeline

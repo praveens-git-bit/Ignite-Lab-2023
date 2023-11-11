@@ -39,10 +39,10 @@
 
 3. On the Sign into Microsoft Azure tab, you will see the login screen. Paste the following email/username and then click on Next.
 
-    <inject key= "Username" enableCopy="true"/>
+    <inject key= "AzureUserName" enableCopy="true"/>
 
 ```BASH
- <inject key= "Username" enableCopy="true"/>
+ <inject key= "AzureUserName" enableCopy="true"/>
 ```
 
 

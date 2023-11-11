@@ -40,7 +40,7 @@
 3. On the Sign into Microsoft Azure tab, you will see the login screen. Paste the following email/username and then click on Next.
 
 ```BASH
- <inject key= "NameSpaceBrowse" enableCopy="true"/>
+ <inject key= "Username" enableCopy="true"/>
 ```
 
 ![Started.](GetStarted/Task8.png)

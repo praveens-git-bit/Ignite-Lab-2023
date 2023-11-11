@@ -15,7 +15,7 @@
 
 1. Click on the **Setting Icon** above in the right corner of the page.
 
-   `Note: If you are not seeing settings icon, click on the **three dots** next to Fabric Trail: 59 days left and in the drop down click on **Settings Icon.**` 
+   `Note: If you are not seeing settings icon, click on the three dots next to Fabric Trail: 59 days left and in the drop down click on Settings Icon.` 
 
 	![Databricks.](PowerBI/Task2.2.png)
 

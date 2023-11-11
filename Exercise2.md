@@ -13,32 +13,34 @@
 
 *Since OneLake uses the same APIs as ADLS Gen2 and supports the same Delta Parquet format for data storage, Azure Databricks notebooks can be seamlessly updated to use the OneLake endpoints for the data. This keeps the paths consistent across experiences whether the data consumer is querying data through a warehouse in Microsoft Fabric or a notebook in Azure Databricks.*
 
-1. Click on the **Setting Icon** above in the right corner of the page. If you are not seeing settings, click on the **three dots** next to Fabric Trail: 59 days left and in the drop down click on **Settings Icon.** 
+1. Click on the **Setting Icon** above in the right corner of the page.
+
+   `Note: If you are not seeing settings icon, click on the **three dots** next to Fabric Trail: 59 days left and in the drop down click on **Settings Icon.**` 
 
 	![Databricks.](PowerBI/Task2.2.png)
 
-2. After clicking on the Setting Icon, scroll down the right panel that appeared and click on the **Admin Portal** under Governance and Insights.
+3. After clicking on the Setting Icon, scroll down the right panel that appeared and click on the **Admin Portal** under Governance and Insights.
 
 	![Databricks.](PowerBI/Task2.3.png)
 
-3. In the **Admin Portal** scroll down to the **Developer Settings** and enable the access for Service Principal by clicking on drop down.
+4. In the **Admin Portal** scroll down to the **Developer Settings** and enable the access for Service Principal by clicking on drop down.
 
 	![Databricks.](PowerBI/Task2.4.png)
 
-4. Click on the **toggle button** to enable and **Apply** button allow service principals to use PowerBI APIs. 
+5. Click on the **toggle button** to enable and **Apply** button allow service principals to use PowerBI APIs. 
 
 	![Databricks.](PowerBI/Task2.5.png)
 
-5. Click on the **toggle button** to enable and **Apply** button allow service principals to create and use profiles.
+6. Click on the **toggle button** to enable and **Apply** button allow service principals to create and use profiles.
 
 	![Databricks.](PowerBI/Task2.6.png)
 
 
-6. From the left navigation pane, click on **Workspaces** and select the **contosoSales** workspace.
+7. From the left navigation pane, click on **Workspaces** and select the **contosoSales** workspace.
 
 	![Databricks.](media/task-2.1.new-1.png)
 
-7. Click on the **three dots** and select **Manage access**.
+8. Click on the **three dots** and select **Manage access**.
 
 	![Databricks.](media/task-2.1.new-2.png)
 

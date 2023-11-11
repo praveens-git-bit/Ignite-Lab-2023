@@ -10,7 +10,6 @@
 
 1. Lab guide tab contains all the steps you need to perform and complete the lab. You can see the number on the lab guide bottom area to switch to different exercises in the lab guide.
 
-
 ![Started.](GetStarted/Task3.png)
 
 2. Before Getting Started with the Lab explore all the tabs.

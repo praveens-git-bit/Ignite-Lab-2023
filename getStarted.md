@@ -39,10 +39,10 @@
 
 3. On the Sign into Microsoft Azure tab, you will see the login screen. Paste the following email/username and then click on Next.
 
-    <inject key= "AzureUserName" enableCopy="true"/>
+    <inject key= "AzureAdUserEmail" enableCopy="true"/>
 
 ```BASH
- <inject key= "AzureUserName" enableCopy="true"/>
+ <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
 
@@ -50,15 +50,15 @@
 
 4. Now paste the following password and click on Signin.
 
-    <inject key= "Password" enableCopy="true"/>
+    <inject key= "AzureAdUserPassword" enableCopy="true"/>
 
 ```BASH
- <inject key= "Password" enableCopy="true"/>
+ <inject key= "AzureAdUserPassword" enableCopy="true"/>
 ```
 
 ![Started.](GetStarted/Task9.png)
 
-5. Click on **Yes**
+5. Click on **Yes**.
 
 ![Started.](GetStarted/Task10.png)
 

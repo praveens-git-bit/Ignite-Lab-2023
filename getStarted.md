@@ -42,7 +42,6 @@
  <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
-
 ![Started.](GetStarted/Task8.png)
 
 4. Now paste the following password and click on Signin.

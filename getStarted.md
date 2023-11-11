@@ -40,17 +40,15 @@
 3. On the Sign into Microsoft Azure tab, you will see the login screen. Paste the following email/username and then click on Next.
 
 
-```BASH
  <inject key= "Username" enableCopy="true"/>
-```
+
 
 ![Started.](GetStarted/Task8.png)
 
 4. Now paste the following password and click on Signin.
 
-```BASH
  <inject key= "Password" enableCopy="true"/>
-```
+
 ![Started.](GetStarted/Task9.png)
 
 5. Click on **yes**

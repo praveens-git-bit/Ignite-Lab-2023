@@ -44,7 +44,7 @@
 
 	![Databricks.](media/task-2.1.new-2.png)
 
->**Note:** Manage access might be available in the pane also. If so, there is no need to click on the three dots.
+`Note: Manage access might be available in the pane also. If so, there is no need to click on the three dots.`
 
 8. In the right pane, click on **+ Add people or groups**.
 
@@ -75,13 +75,13 @@
 
 	![Databricks.](media/task-2.1.2.png)
 
->**Note:** click on Skip onboarding or Close any popups that appear.
+`Note: click on Skip onboarding or Close any popups that appear.`
 
 13. In the left navigation pane, select **Workspace**, click on **Workspace** in the Workspace navigation menu and then click on the **01_Setup-OneLake_Integration_with_Databrick** notebook.
 
 	![Select Workflows](media/task-2.1.3.png)
 
->**Note:** Skip or Close any popups you see.
+`Note: Skip or Close any popups you see.`
 
 14. In the cell named **OneLake Path** or **cmd 2**, replace **"#WORKSPACE_NAME#"** from Hash to Hash, with the earlier created Fabric workspace and verify the lakehouse names. Make sure that the name matches with the lakehouses you created in Exercise 1.
 
@@ -178,7 +178,7 @@ Delta Live Table Pipeline
 
 	![Select Notebook](media/task-2.3-sql1.png)
 
->**Note:** You can also select lakehouseSilver from the contosoSales workspace.
+`Note: You can also select lakehouseSilver from the contosoSales workspace.`
 
 2. Hard refresh the page using **Ctrl + Shift + R**. 
 
@@ -188,7 +188,7 @@ Delta Live Table Pipeline
 
 	![Select Notebook](media/task-2.3-sql2.png)
 
->**Note:** Wait for the SQL endpoint to load.
+`Note: Wait for the SQL endpoint to load.`
 
 4. Here is a list of all the tables in open-standard delta format. We can run queries on these tables to get the insights we need for the next step.
 

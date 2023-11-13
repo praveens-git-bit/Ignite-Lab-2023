@@ -22,7 +22,7 @@
    https://app.powerbi.com/
 ```
 
-Note: After you paste the link in the browser, the page will automatically login.
+`Note: After you paste the link in the browser, the page will automatically login.`
 
 *Close* the top bar for a better view, if it appear.
 
@@ -43,7 +43,7 @@ Note: After you paste the link in the browser, the page will automatically login
    ![Create Power BI Workspace.](media/task-1.1.3.png)
 
 
-*Note: If you are getting any popups follow up the below steps or else jump to **Task 1.2***
+`Note: If you are getting any popups follow up the below steps or else jump to Task 1.2`
 
 *Click on the **Try free** button.*
 
@@ -66,7 +66,7 @@ Note: After you paste the link in the browser, the page will automatically login
 
 1. In Power BI service, click **+ New** and then select **Show all**.
 
-**Note:** You may see **More options** instead of Show all. 
+`Note: You may see More options instead of Show all.` 
 
    ![Close the browser.](media/task-1.2.1.png)
 
@@ -84,7 +84,7 @@ Note: After you paste the link in the browser, the page will automatically login
 lakehouseBronze
 ```
 
-**Note:** If the page get refreshed and lakehouse did not create, follow the steps from 1 to 4.
+`Note: If the page get refreshed and lakehouse did not create, follow the steps from 1 to 4.`
 
 
 5. Click the **Create** button.
@@ -95,7 +95,7 @@ lakehouseBronze
 
 	![Give the name and description for the new workspace.](media/task-1.2.4.png)
 
->**Note:** For this lab we need three lakehouses altogether. For creating the other two, follow the step provided below.
+`Note: For this lab we need three lakehouses altogether. For creating the other two, follow the step provided below.`
 
 7. Repeat from **steps 1 to 5** to create two more lakehouses with the names **lakehouseSilver** and **lakehouseGold** respectively.
 
@@ -117,7 +117,7 @@ lakehouseSilver
 
 
 
->**Note:** Instead of **More options** you may see **Show all**.
+`Note: Instead of More options you may see Show all.`
 
 2. Under the Data Factory section, select **Data pipeline (Preview)**.
 
@@ -139,13 +139,13 @@ Sales data from Azure SQL DB - Low Code Experience
 
     ![Pipeline.](media/task-1.3.5.png)
 
->**Note** You may not see the Azure SQL Database in the same location as shown in the screenshot.
+`Note: You may not see the Azure SQL Database in the same location as shown in the screenshot.`
 
 6. Select the **Create new connection** radio button.
 
     ![Pipeline.](media/task-1.3.6.png)
 
->**Note:** To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal.
+`Note: To fill in the details for required fileds, we need to fetch the data from the SQL Database resource deployed in the Azure Portal.`
 
 
 7. In the **Server** field copy and paste the value given below.
@@ -175,11 +175,11 @@ Smoothie@2023
 
    ![Datawarehouse.](media/task-1.3.16.png)
 
->**Note:** Close any pop-up as such which you see throughout the lab.
+`Note: Close any pop-up as such which you see throughout the lab.`
    
    ![Datawarehouse.](media/task-1.3.16.1.png)
 
->**Note:** Wait for the connection to be created.
+`Note: Wait for the connection to be created.`
 
 9. Select the **Existing tables** radio button, click on the **checkbox** for the first table below the Select all option, and then click on the **Next** button.
 
@@ -209,7 +209,7 @@ Smoothie@2023
 
 	![Datawarehouse.](media/task-1.3.22.png)
 
->**Note:** Please wait for the pipeline to execute.
+`Note: Please wait for the pipeline to execute.`
 
 16. Once the status shows **Run Succeeded**, your data has been transfered from Azure SQL Database to Lakehouse.
 
@@ -231,7 +231,7 @@ Smoothie@2023
 
     ![Lakehouse.](media/task-1.3-ext-shortcut2.png)
 
->**Note:** There will be 3 options for lakehouseBronze, namely Lakehouse, Dataset (default) and SQL endpoint. Make sure to select the Lakehouse option.
+`Note: There will be 3 options for lakehouseBronze, namely Lakehouse, Dataset (default) and SQL endpoint. Make sure to select the Lakehouse option.`
 
 3. Click on the **three dots** on the right side of Files.
 
@@ -243,7 +243,7 @@ Smoothie@2023
 
 	![Lakehouse.](media/task-1.3-ext-shortcut4.png)
 
->**Note:** Wait for the screen to load.
+`Note: Wait for the screen to load.`
 
 6. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut. For this, we need to get the details from the Storage Account resource.
 
@@ -321,7 +321,7 @@ data
 
 	![Lakehouse.](media/task-1.3-ext-shortcut4.png)
 
->**Note:** Wait for the screen to load.
+`Note: Wait for the screen to load.`
 
 25. Copy the below **Data Lake Storage** endpoint and paste it in the URL field of **New Shortcut** page under **Connection Settings**.
 
@@ -329,7 +329,7 @@ data
 <inject key= "StorageEndpoint" enableCopy="true"/>
 ```
 
->**Note:** The details entered earlier will be auto fetched. So click on next, if not follow **steps 07 and 17** below.
+`Note: The details entered earlier will be auto fetched. So click on next, if not follow steps 07 and 17 below.`
 
 26. Click on **Next**.
 
@@ -386,7 +386,7 @@ sales-transaction-litware
 
 	![Datawarehouse.](media/task-1.3-notebook-11.png)
 
->**Note:** If you do not see Missing lakehouse, you may see **lakehouse{Name}**, click on it to get the **Remove all Lakehouses** option.
+`Note:` If you do not see Missing lakehouse, you may see **lakehouse{Name}**, click on it to get the Remove all Lakehouses option.
 
 9. Click on **Continue** in the pop-up window.
 
@@ -405,7 +405,7 @@ sales-transaction-litware
 	![Datawarehouse.](media/task-1.3-notebook-15.png)
 
 
- **Note:** This notebook is used to get the data to the Bronze Lakehouse.
+ `Note: This notebook is used to get the data to the Bronze Lakehouse.`
 
 
 13. Close the **Information box** for a better view of the notebook content, if it appears.

@@ -67,7 +67,7 @@
 
 #
 
-**Note:** If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* to resolve the issue.
+`Note: If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* or refresh the main browser page to resolve the issue.`
 
 ![Started.](GetStarted/Issue1.png)
 

@@ -88,7 +88,7 @@ In this lab we have stored data science models as microservices within Microsoft
 
 	![Datawarehouse.](media/task-1.3-notebook-11.png)
 
->**Note:** If you do not see Missing lakehouse, you'll see **lakehouse{Name}**, click on that name to get the **Remove all Lakehouses** option.
+`Note:` If you do not see Missing lakehouse, you'll see **lakehouse{Name}**, click on that name to get the **Remove all Lakehouses** option.
 
 5. Click on **Continue** in the pop-up window.
 
@@ -108,7 +108,7 @@ In this lab we have stored data science models as microservices within Microsoft
 
 This notebook describes steps and scripts/code to create, evaluate and deploy a customer churn prediction model.
 
->**Note:** Due to time constraints, we will not run this notebook.
+`Note: Due to time constraints, we will not run this notebook.`
 
 *Load Data using Drag & Drop.*
 
@@ -132,7 +132,7 @@ Data Wrangler is a code tool that prepares data and generates Python code. This 
 
 1. In the bottom-left corner of the Power BI tab, click on **Power BI**.
 
-**Note:** You may see **Data Science** instead. 
+`Note: You may see Data Science instead.` 
 
 2. Select **Data Warehouse**.
 
@@ -160,7 +160,7 @@ salesDW
 
 	![Datawarehouse.](media/task-4.1.warehouse-4.png)
 
->**Note:** It will take some time for the page to load.
+`Note: It will take some time for the page to load.`
 
 3. In the pop-up, paste the name **02 Sales data from Azure SQL DB to Data Warehouse - Low Code Experience**.
 
@@ -211,7 +211,7 @@ salesDW
 
 	![Datawarehouse.](media/task-4.1.warehouse-16.png)	
 
->**Note:** When you click on Save + Run the pipeline is automatically triggered.
+`Note: When you click on Save + Run the pipeline is automatically triggered.`
 
 21. If the below screen is prompted click on the **OK** button.
 
@@ -225,7 +225,7 @@ salesDW
 
 	![Datawarehouse.](media/task-4.1.warehouse-18.png)
 
->**Note:** Wait for the resultant data to load.
+`Note: Wait for the resultant data to load.`
 
 24. **Wait** for the status of the pipeline to display **Succeeded** and go back to the **Data Warehouse** from the workspace.
 
@@ -244,4 +244,5 @@ Introducing virtual warehouses, where we not only analyze data from the departme
 
 	![Datawarehouse.](media/task_4.3.3.png)
 
->**Note:** It will take a few seconds for the new warehouse to appear.
+`Note: It will take a few seconds for the new warehouse to appear.`
+`

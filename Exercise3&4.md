@@ -221,7 +221,7 @@ salesDW
 
 	![Datawarehouse.](media/task-4.1.warehouse-17.png)
 
-23. In the progress section of the pipeline, check the **status** of the running pipeline.
+23. In the progress section of the pipeline, check the **status** of the running pipeline in the output section below.
 
 	![Datawarehouse.](media/task-4.1.warehouse-18.png)
 

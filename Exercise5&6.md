@@ -13,7 +13,7 @@ https://app.powerbi.com
 
 `Note: If you are working in the same tab you were working before, please close the tabs like warehouse, lakehouse, pipeline etc. Opened in the left task bar of the Microsoft Fabric to avoid the notification when you are opening more than 10 tabs.`
 
->**Note:** Dismiss any popups that appear on your screen.
+`Note: Dismiss any popups that appear on your screen.`
 
 2. In Power BI service, click on **Workspaces** and click on **contosoSales**. 
 
@@ -27,13 +27,13 @@ https://app.powerbi.com
 
 	![Task 6](media/task-6.1.11.png)
 
->**Note:** Wait for the report to upload.
+`Note: Wait for the report to upload.`
 
 5. **Open** the report by clicking on it.
 
 	![Task 6](media/task-6.1.12.png)
 
->**Note:** Make sure to click on the **Report** and not the Dataset or Dashboard which is auto created with the same name, and close if you see any popups.
+`Note: Make sure to click on the REPORT and not the Dataset or Dashboard which is auto created with the same name, and close if you see any popups.`
 
    ![Task 6](media/task-6.1.20.png)
 
@@ -86,7 +86,8 @@ As a result of this analysis, Contoso reduced their bounce rate by implementing 
 	![Close the browser.](media/task-5.1.1.png)
 
 2. Click on **+ New** and then click on **Show all**.
->**Note:** You may see **More options** instead of Show all.
+
+`Note: You may see More options instead of Show all.`
 
  ![Close the browser.](media/task-5.1.2.png)
 
@@ -121,9 +122,9 @@ thermostat
 
 3. In the Configure data source tab, select the **Create new connection** radio button. Fill the **Event Hub namespace** and **Event Hub** fields with below given values.
 
-	<inject key="$namespaces_adx_thermostat_occupancy_name" enableCopy="true"/>
-	
-	**adx-thermostat-occupancy-<inject key="DeploymentID" enableCopy="false"/>**
+```BASH	
+ <inject key="eventhubNamespace" enableCopy="true"/>
+```
 
 ```BASH
 thermostat
@@ -131,7 +132,7 @@ thermostat
 
 ![Close the browser.](PowerBI/Task6.3.png)
 
->**Note:** For the rest of the fields we need to move to the Azure Portal and fetch the required values.
+`Note: For the rest of the fields we need to move to the Azure Portal and fetch the required values.`
 
 4. Navigate to the **Azure Portal**, search for **fabric-dpoc** in the search tab and select the resource group name starting with **fabric-dpoc**.
 
@@ -172,14 +173,14 @@ thermostat
 
 	![Close the browser.](PowerBI/Task6.5.png)
 
-**Note:** Wait for the connection to be established.
+`Note: Wait for the connection to be established.`
 
 14. Click on the Next button..
 
 	![Close the browser.](PowerBI/Task6.6.png)
 
 
-**Note:** In the Inspect tab, data loading will take some time.
+`Note: In the Inspect tab, data loading will take some time.`
 
 15. In the Inspect tab, click on the dropdown button next to Format: TXT, select JSON and click on the Finish button.
 
@@ -280,17 +281,15 @@ thermostat
 
 The graph/result visualizes the data in a line chart. We see that it looks like the temperature is currently quite pleasant.
 
-Note: The query from line **26 - 42** has the heavy data, avoid running the query. Those are only for information.
+`Note: The query from line **26 - 42** has the heavy data, avoid running the query. Those are only for information.`
+
+`Note: The user might not see graph, due to query of high data.`
 
 9. Select the query. **(Line 26-32)**
-
-*Note: The user might not see graph, due to query of high data.*
 
 The graph/result visualizes the average temperature in the next 15 minutes, in anticipation of heavy foot traffic due to the ongoing sale. We notice that the temperature is going to remain pleasant for a while.
 
 11. Select the query. **(Line 35-42)**
-
-*Note: The user might not see graph, due to query of high data.*
 
 The third query is executed to keep an eye on the temperature and detect any anomalies. 
 A sudden rise or drop in temperature triggers an alert for the Contoso staff to check the situation and take necessary action to bring the temperature back to an optimal level.
@@ -322,7 +321,7 @@ A sudden rise or drop in temperature triggers an alert for the Contoso staff to 
 
 	![Task 6](media/task-5.4.7.png)
 
->**Note:** Wait for the report to upload.
+`Note: Wait for the report to upload.`
 
 8. In the left navigation bar, select the **Contoso Sales** workspace.
 
